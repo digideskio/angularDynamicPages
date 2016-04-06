@@ -1,0 +1,17 @@
+{
+  "name": "skeletonangularnode",
+  "version": "1.0.0",
+  "description": "a starting point for angular node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli Arad <easp13@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.4.11"
+  }
+}

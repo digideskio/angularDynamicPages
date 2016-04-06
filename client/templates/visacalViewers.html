@@ -1,0 +1,39 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-3">
+            <form>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                        <input type="text" class="form-control" placeholder="Enter user id" ng-model="searchFish">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table  table-striped">
+                <thead>
+                <tr>
+                    <td ng-repeat="item in headerSchema">
+                        {{item.title}}
+                    </td>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr ng-repeat="roll in sushi">
+                    <td>
+                        {{ roll.name }}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>

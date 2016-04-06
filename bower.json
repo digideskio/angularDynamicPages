@@ -1,0 +1,31 @@
+{
+  "name": "NodeJSAngularSkeleton",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "easp13@gmail.com"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "angular-ui-router": "ui-router#~0.2.15",
+    "angular-cookies": "~1.4.8"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "angular"
+  ],
+  "private": true
+}
