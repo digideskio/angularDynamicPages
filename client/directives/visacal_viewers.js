@@ -12,12 +12,10 @@ app.directive('visacalViewers', function ($http, $filter, $window, calapi) {
             scope.headerSchema = schema;
 
             calapi.getView(attr.schema).then(function(result){
-
-                console.log(result.data);
+               scope.dataView = result.data;
             }).catch(function(result){
-
+                console.log('error');
             })
-
         }
     };
 });

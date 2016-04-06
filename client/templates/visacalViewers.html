@@ -25,9 +25,9 @@
                 </thead>
 
                 <tbody>
-                <tr ng-repeat="roll in sushi">
-                    <td>
-                        {{ roll.name }}
+                <tr ng-repeat="d in dataView">
+                    <td ng-repeat="(k , item) in headerSchema">
+                        {{ d[k] }}
                     </td>
                 </tr>
                 </tbody>
