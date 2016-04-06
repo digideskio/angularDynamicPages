@@ -1,6 +1,13 @@
-# quicksite
-A startup project to help you build the building blocks for angular and node js
+# angularDynamicPages
 
-To everyone that wants to raise a project in node js and angular , this is a quick baseline
-that i am using ( no need or mean io ) we need to control most of what we are doing , right?
+creating several angular directives that allow you to declare a schema based class and
+using abstract interface to use that directive to view many different pages.
+
+The directive contains:
+1. viewer
+2. editable
+3. delete
+4. adding new
+
+To make the sample complete node js and mongo db are used for real data.
 
